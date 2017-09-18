@@ -91,6 +91,17 @@ set nrformats=
 set whichwrap=b,s,h,l,<,>,[,],~
 "バッファスクロール
 set mouse=a
+"括弧の補完
+inoremap { {}<LEFT>
+inoremap [ []<LEFT>
+inoremap ( ()<LEFT>
+inoremap " ""<LEFT>
+inoremap ' ''<LEFT>
+vnoremap { "zdi^V{<C-R>z}<ESC>
+vnoremap [ "zdi^V[<C-R>z]<ESC>
+vnoremap ( "zdi^V(<C-R>z)<ESC>
+vnoremap " "zdi^V"<C-R>z^V"<ESC>
+vnoremap ' "zdi'<C-R>z'<ESC>
 
 "auto read .vimrc
 augroup souce-vimrc
