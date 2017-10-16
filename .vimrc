@@ -142,5 +142,5 @@ endif
 augroup CPP
     autocmd!
     autocmd BufNewFile,BufRead *.cpp setlocal tabstop=4 softtabstop=4 shiftwidth=4
-    autocmd  Filetype html inoremap <buffer> iamain int<SPACE>main(<RIGHT>{<RIGHT>
+    autocmd Filetype cpp inoremap <buffer> iamain int<SPACE>main(<RIGHT>{<RIGHT>
 augroup end
