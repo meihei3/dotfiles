@@ -91,6 +91,10 @@ set nrformats=
 set whichwrap=b,s,h,l,<,>,[,],~
 "バッファスクロール
 set mouse=a
+"カーソルのある行にアンダーラインを引くように設定する
+set cursorline
+"位置を表示
+set ryker
 "括弧の補完
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
@@ -136,3 +140,9 @@ if has("autocmd")
     \ endif
   augroup END
 endif
+
+augroup CPP
+    autocmd!
+    autocmd BufNewFile,BufRead *.cpp setlocal tabstop=4 softtabstop=4 shiftwidth=4
+    autocmd  Filetype html inoremap <buffer> iamain int<SPACE>main(<RIGHT>{<RIGHT>
+augroup end
