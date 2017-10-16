@@ -93,8 +93,6 @@ set whichwrap=b,s,h,l,<,>,[,],~
 set mouse=a
 "カーソルのある行にアンダーラインを引くように設定する
 set cursorline
-"位置を表示
-set ryker
 "括弧の補完
 inoremap { {}<LEFT>
 inoremap [ []<LEFT>
