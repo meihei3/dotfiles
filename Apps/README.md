@@ -23,6 +23,7 @@ AppStore からインストール。時間かかるので早めにやる。
 完了したら以下を実行。
 
 ```
+sudo xcodebuild -license
 xcode-select --install
 ```
 
