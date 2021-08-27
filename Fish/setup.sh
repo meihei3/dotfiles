@@ -26,8 +26,9 @@ if ! has "fish"; then
 fi
 
 # fishをデフォルトシェルにする
+# デフォルトシェルにしようとするとfishへのパスがなくて死ぬ
 echo /usr/local/bin/fish | sudo tee -a /etc/shells
-chsh -s /usr/local/bin/fish
+# chsh -s /usr/local/bin/fish
 
 # 色々入れる
 curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
