@@ -2,6 +2,7 @@
 
 
 DOTPATH=~/.dotfiles
+GITHUB_URL=https://github.com/yameholo/dotfiles.git
 
 e_error() {
     printf " \033[31m%s\033[m\n" "✖ $*" 1>&2
