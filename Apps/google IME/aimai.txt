@@ -1,0 +1,5 @@
+れふぁくたりんぐ	リファクタリング	名詞	Refactoring
+れふぁれんす	リファレンス	名詞	Refarence
+あーてぃさん	アーティザン	名詞	Artisan
+えろくえんと	エロクアント	名詞	Eloquent
+れぽじとり	リポジトリ	名詞	Repository
