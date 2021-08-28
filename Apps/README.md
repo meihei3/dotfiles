@@ -10,6 +10,7 @@
 - [ ] ShiftIt(Magnet)
 - [ ] VScode
 - [ ] TablePlus
+- [ ] Go
 
 ## Enpass
 
@@ -72,3 +73,9 @@ Magnet の場合、AppStore からインストール。
 ## TablePlus
 
 https://tableplus.com/
+
+## Go
+
+最新版をインストール。goenvはやらない。
+
+https://golang.org/dl/
