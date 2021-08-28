@@ -20,10 +20,10 @@ mkdir ~/.ssh
 https://qiita.com/shizuma/items/2b2f873a0034839e47ce
 
 ```
-$ ssh-keygen -t ed25519 -P "" -f id_github_ed25519.pem
+$ ssh-keygen -t ed25519 -P "" -f id_github_ed25519
 ```
 
-名前は`id_github_ed25519.pem`
+名前は`id_github_ed25519`
 
 https://github.com/settings/ssh 鍵のアップロード
 
@@ -32,7 +32,7 @@ ssh の設定
 ```
 Host github.com
   HostName github.com
-  IdentityFile ~/.ssh/id_github_ed25519.pem
+  IdentityFile ~/.ssh/id_github_ed25519
   User git
 ```
 
@@ -44,8 +44,8 @@ $ ssh -T git@github.com
 
 ```
 $ git config --global core.editor vim
-$ git config --global user.email ""
-$ git config --global user.name ""
+$ git config --global user.email "24579635+meihei3@users.noreply.github.com"
+$ git config --global user.name "meihei3"
 ```
 
 ## phpbrew
